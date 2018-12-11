@@ -1,6 +1,8 @@
 String escape parser
 ===
 
+[![Build Status](https://travis-ci.org/paradoxical-io/escape-parser.svg?branch=master)](https://travis-ci.org/paradoxical-io/escape-parser)
+
 It can be useful to decompose strings into quoted argument arrays similiar to how you expect
 command line args to be processed. This string escape parser will decompose a string into its 
 subsequent segments preserving quoted sections as single strings and escaped quotes within them.
